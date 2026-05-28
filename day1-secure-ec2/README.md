@@ -10,12 +10,12 @@ My first risk-aware cloud deployment. A single EC2 instance hardened against int
 | Private Subnet | Blocks direct internet attacks | Potential breach ($4.45M avg cost) |
 | No Inbound Security Group | Prevents port scanning and brute force | Instance compromise, lateral movement |
 | Least Privilege IAM | Limits credential compromise blast radius | Full account takeover vs EC2-only access |
-| t2.micro Only | Cost control | No surprise bills |
+| t3.micro Only | Cost control | No surprise bills |
 
 ## Architecture
 - Custom VPC: 10.0.0.0/16
 - Private subnet: 10.0.1.0/24 (no Internet Gateway)
-- EC2 t2.micro with Ubuntu 22.04
+- EC2 t3.micro with Ubuntu 22.04
 - Security group: outbound only, zero inbound rules
 
 ## Compliance Mapping
