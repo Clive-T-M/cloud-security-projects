@@ -12,5 +12,5 @@ Without logs and compliance checks, security is just a hope. With them, it's aud
 ## One Concept I Want Deeper Understanding Of
 How to automatically fix what Config detects — auto-remediation with Lambda functions.
 
-## Ready for Day 3?
-Yes! I want to learn auto-remediation so violations fix themselves without human intervention.
+## Getting Ready for 3rd lab?
+I will learn auto-remediation so violations fix themselves without human intervention.
